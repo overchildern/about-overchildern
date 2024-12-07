@@ -271,5 +271,36 @@ main {
     width: 92vw;
     text-align: center;
   }
+
+/* Style untuk Pop-up */
+#popup {
+    display: none; /* Awalnya disembunyikan */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    text-align: center;
+}
+
+/* Style untuk tombol tutup */
+#close-btn {
+    padding: 10px 20px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#close-btn:hover {
+    background-color: #ff1c2d;
+}
   
 }
