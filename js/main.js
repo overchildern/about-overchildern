@@ -13,3 +13,16 @@ targets.forEach(element => {
     target.style.display= 'flex'
   })
 })
+
+//adding pop up ads
+        // Menampilkan pop-up setelah halaman dimuat
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById("popup").style.display = "block";
+            }, 3000); // Pop-up muncul setelah 3 detik
+        };
+
+        // Menutup pop-up ketika tombol "Tutup" diklik
+        document.getElementById("close-btn").onclick = function() {
+            document.getElementById("popup").style.display = "none";
+        };
