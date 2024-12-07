@@ -19,7 +19,7 @@ targets.forEach(element => {
         window.onload = function() {
             setTimeout(function() {
                 document.getElementById("popup").style.display = "block";
-            }, 3000); // Pop-up muncul setelah 3 detik
+            }, 1000); // Pop-up muncul setelah 1 detik
         };
 
         // Menutup pop-up ketika tombol "Tutup" diklik
